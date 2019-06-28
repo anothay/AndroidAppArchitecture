@@ -1,6 +1,6 @@
 # AndroidAppArchitecture
 
-We use default MVVM architecture in Android apps.
+We use MVVM in Android apps.
 
 SOLID principles are core of our apps.
 
@@ -70,4 +70,10 @@ It is convenient because you can dispose disposables in onCleared method in View
 
 So every Logic Unit you need in ViewModel is injected.
 
-The very important things, that all logic units should have one responsibility, and should be abstractions. So you can mock it and test it.
+The very important thing, that all logic units should have one responsibility, and should be abstractions. 
+
+All Units for ViewModel should be built on principles of Clean Architecture.
+
+ViewModel should contains UseCases, or directly abstract repositories if it needs only call to persistence storage, etc;
+
+
