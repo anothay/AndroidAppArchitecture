@@ -68,9 +68,9 @@ class DefaultMainViewModel(private  var modelLocalRepository: ModelLocalReposito
 
 It is convenient because you can dispose disposables in onCleared method in ViewModel, as well it will bring less crashes and etc.  
 
-So every Logic Unit you need in ViewModel is injected.
+So every Unit you need in ViewModel is injected.
 
-The very important thing, that all logic units should have one responsibility, and should be abstractions. 
+The very important thing, that all units should have one responsibility, and should be abstractions. 
 
 All Units for ViewModel should be built on principles of Clean Architecture.
 
