@@ -70,7 +70,7 @@ It is convenient because you can dispose disposables in onCleared method in View
 
 Thus, every Unit you need in ViewModel is injected.
 
-The crusial point is that all units should have one responsibility and should be abstractions. 
+The crucial point is that all units should have one responsibility and they should be abstractions. 
 
 All Units for ViewModel should be built on principles of Clean Architecture.
 
