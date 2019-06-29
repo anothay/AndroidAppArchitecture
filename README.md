@@ -68,10 +68,10 @@ class DefaultMainViewModel(private  var modelLocalRepository: ModelLocalReposito
 
 It is convenient because you can dispose disposables in onCleared method in ViewModel. Also, it will bring less crashes, etc.  
 
-Thus, every Unit you need in ViewModel is injected.
+Thus, every dependency you need in ViewModel is injected.
 
-The crucial point is that all units should have one responsibility and they should be abstractions. 
+The crucial point is that all dependencies should have one responsibility and they should be abstractions. 
 
-All Units for ViewModel should be built on principles of Clean Architecture.
+All Dependencies for ViewModel should be built on principles of Clean Architecture.
 
 
