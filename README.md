@@ -2,26 +2,26 @@
 
 We use MVVM in Android apps.
 
-SOLID principles are core of our apps.
+SOLID principles are the core of our apps.
 
-We use Android architecture components in apps.
+We use Android architecture components in the apps.
 
-Navigation component is optional, could be used for small apps.
+Navigation component is optional, it could be used for small apps.
 
-For injecting dependencies we prefer to use [Koin](https://github.com/InsertKoinIO/koin). It is more lightweight than Dagger2, and has support for ViewModels. So you don't need to create Factories by yourself when you need to inject something in ViewModel.
+For injecting dependencies we prefer to use [Koin](https://github.com/InsertKoinIO/koin). It is more lightweight than Dagger2 and it has support for ViewModels. So you don't need to create Factories by yourself when you need to inject something in ViewModel.
 
 Every screen has the following structure:
 
-- Activity. 
-  Just container for frament.
+#### Activity 
+  It's just a container for fragments.
    
-- Fragment.
+#### Fragment
 
 It binds viewModel and contains all view logic. 
 
-- ViewModel
+#### ViewModel
 
-Abstract class for View Model, inherited from ViewModel class in AAC.
+Abstract class for View Model inherited from ViewModel class in AAC.
 
 ```kotlin
   abstract class MainViewModel: ViewModel() {
@@ -30,7 +30,7 @@ Abstract class for View Model, inherited from ViewModel class in AAC.
   }
 ```
 
-It has liveData variables. Basically idea is to encapsulate all RxJava in viewModel, and provide to Fragment only liveData.
+It has liveData variables. The main idea is to encapsulate all RxJava in viewModel and provide only liveData to Fragment.
 
 
 ```kotlin
@@ -66,14 +66,12 @@ class DefaultMainViewModel(private  var modelLocalRepository: ModelLocalReposito
   }
 ```
 
-It is convenient because you can dispose disposables in onCleared method in ViewModel, as well it will bring less crashes and etc.  
+It is convenient because you can dispose disposables in onCleared method in ViewModel. Also, it will bring less crashes, etc.  
 
-So every Unit you need in ViewModel is injected.
+Thus, every Unit you need in ViewModel is injected.
 
-The very important thing, that all units should have one responsibility, and should be abstractions. 
+The crusial point is that all units should have one responsibility and should be abstractions. 
 
 All Units for ViewModel should be built on principles of Clean Architecture.
-
-ViewModel should contains UseCases, or directly abstract repositories if it needs only call to persistence storage, etc;
 
 
