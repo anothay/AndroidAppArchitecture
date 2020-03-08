@@ -1,4 +1,4 @@
-package com.wolvesstudio.example
+package com.techprostudio.example
 
 import org.junit.Test
 

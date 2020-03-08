@@ -1,10 +1,10 @@
-package com.wolvesstudio.example.screens.detail
+package com.techprostudio.example.screens.detail
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.wolvesstudio.example.core.Model
-import com.wolvesstudio.example.core.ModelLocalRepository
+import com.techprostudio.example.core.Model
+import com.techprostudio.example.core.ModelLocalRepository
 
 
 

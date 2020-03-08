@@ -1,4 +1,4 @@
-package com.wolvesstudio.example.core.persistence
+package com.techprostudio.example.core.persistence
 
 import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject

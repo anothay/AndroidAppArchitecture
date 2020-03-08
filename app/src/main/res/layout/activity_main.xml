@@ -8,6 +8,6 @@
         tools:context=".screens.main.MainActivity">
     <fragment
             android:layout_width="match_parent"
-            android:layout_height="match_parent" android:name="com.wolvesstudio.example.screens.main.MainFragment"
+            android:layout_height="match_parent" android:name="com.techprostudio.example.screens.main.MainFragment"
             tools:layout_editor_absoluteY="612dp" tools:layout_editor_absoluteX="140dp" android:id="@+id/main"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

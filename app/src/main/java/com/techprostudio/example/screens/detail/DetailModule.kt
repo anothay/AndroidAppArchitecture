@@ -1,4 +1,4 @@
-package com.wolvesstudio.example.screens.detail
+package com.techprostudio.example.screens.detail
 
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module

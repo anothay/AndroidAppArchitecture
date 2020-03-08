@@ -1,10 +1,10 @@
-package com.wolvesstudio.example.screens.main
+package com.techprostudio.example.screens.main
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.wolvesstudio.example.R
-import com.wolvesstudio.example.core.Model
+import com.techprostudio.example.R
+import com.techprostudio.example.core.Model
 
 class ModelListAdapter : RecyclerView.Adapter<ModelView>() {
     var list: List<Model> = listOf()

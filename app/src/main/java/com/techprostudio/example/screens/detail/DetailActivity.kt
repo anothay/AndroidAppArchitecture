@@ -1,8 +1,8 @@
-package com.wolvesstudio.example.screens.detail
+package com.techprostudio.example.screens.detail
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.wolvesstudio.example.R
+import com.techprostudio.example.R
 
 
 class DetailActivity: AppCompatActivity() {

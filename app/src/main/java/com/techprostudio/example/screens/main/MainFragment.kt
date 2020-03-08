@@ -1,4 +1,4 @@
-package com.wolvesstudio.example.screens.main
+package com.techprostudio.example.screens.main
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,8 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
-import com.wolvesstudio.example.R
-import com.wolvesstudio.example.screens.detail.DetailActivity
+import com.techprostudio.example.R
+import com.techprostudio.example.screens.detail.DetailActivity
 import kotlinx.android.synthetic.main.fragment_main.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

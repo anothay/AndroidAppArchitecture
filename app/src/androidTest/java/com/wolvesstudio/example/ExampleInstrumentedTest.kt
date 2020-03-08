@@ -1,4 +1,4 @@
-package com.wolvesstudio.example
+package com.techprostudio.example
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.wolvesstudio.example", appContext.packageName)
+        assertEquals("com.techprostudio.example", appContext.packageName)
     }
 }
